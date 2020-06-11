@@ -1,0 +1,82 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f0f0;
+  color: #56524a;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Source Code Pro", monospace;
+}
+
+.sample {
+  margin: 1em;
+  text-align: center;
+  padding: 1em 0;
+  background: #f3f3f3;
+  border-radius: 20px;
+}
+
+svg.logo path,
+svg.logo ellipse {
+  fill: #56524a;
+}
+
+footer {
+  padding: 5em 0;
+}
+
+.btn-scheme {
+  color: #56524a;
+  background-color: #f0f0f0;
+  border-color: #56524a;
+}
+
+.btn-scheme .badge {
+  background-color: #56524a;
+  color: #f0f0f0;
+}
+
+.btn-scheme:hover {
+  color: #666;
+  border-color: #666;
+}
+
+.btn-scheme:hover .badge {
+  background-color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #56524a;
+    color: #f0f0f0;
+  }
+  .text-muted {
+    color: #aaa !important;
+  }
+  .sample {
+    background: #56524a;
+  }
+  svg.logo path,
+  svg.logo ellipse {
+    fill: #f0f0f0;
+  }
+  .btn-scheme {
+    color: #ccc;
+    background-color: #333;
+    border-color: #ccc;
+  }
+  .btn-scheme:hover {
+    color: #999;
+    border-color: #999;
+  }
+  .btn-scheme .badge {
+    background-color: #ccc;
+    color: #333;
+  }
+  .btn-scheme:hover .badge {
+    background-color: #999;
+  }
+}

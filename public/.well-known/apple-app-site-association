@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "3Y8APYUG2G.com.ci2go.ios.Circle"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Root"
+          },
+          {
+            "/": "/support/*",
+            "exclude": true,
+            "comment": "Support"
+          },
+          {
+            "/": "/contact/*",
+            "exclude": true,
+            "comment": "Contact"
+          }
+        ]
+      }
+    ]
+  }
+}
