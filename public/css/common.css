@@ -7,15 +7,18 @@ body {
 code,
 kbd,
 pre,
-samp {
+samp,
+.sample {
   font-family: "Source Code Pro", monospace;
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 0.2em 1em;
 }
 
 .sample {
   margin: 1em;
   text-align: center;
   padding: 1em 0;
-  background: #f3f3f3;
   border-radius: 20px;
 }
 
@@ -56,8 +59,13 @@ footer {
   .text-muted {
     color: #aaa !important;
   }
+  
+  code,
+  kbd,
+  pre,
+  samp,
   .sample {
-    background: #56524a;
+    background: #3e3b35;
   }
   svg.logo path,
   svg.logo ellipse {
