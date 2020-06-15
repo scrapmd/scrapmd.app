@@ -21,3 +21,5 @@ jobs:
 
     - name: Deploy
       run: ./scripts/deploy.sh
+      env:
+        CLOUD_FRONT_DISTRIBUTION_ID: ${{ secrets.CLOUD_FRONT_DISTRIBUTION_ID }}
